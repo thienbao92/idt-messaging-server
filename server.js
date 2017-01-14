@@ -43,10 +43,6 @@ MongoClient.connect(dbURL, function(err, db) {
 
 });
 
-// setInterval(function(){
-//   io.emit("welcome", {"sth":"sth"});
-// }, 2000);
-
 server.listen(port, function() {
   console.log('Example app listening on port 3000!')
 })
