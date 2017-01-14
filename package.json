@@ -1,0 +1,19 @@
+{
+  "name": "idtmessaging-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.20",
+    "socket.io": "^1.7.2",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Bao VU",
+  "license": "ISC"
+}
